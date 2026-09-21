@@ -1,0 +1,968 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-CS2025" at "2026-09-21T02:41:02.642414Z"
+OS: 'Windows 11  (10.0.22631) Enterprise' Language: 'zh' Physical Memory: 16053 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-21T02:41:02Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7004, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              4dd77b749d444b1487446a4a7791ac6d
+  Correlation Id:          2fda475f26dd7829e6f2fb15020aba27
+  External correlation Id: 410228046271414571
+  Machine Id:              oyhdFeAdCaeIokcTrryjiu2Q/Ro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-CS2025" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-CS2025-notifications" at "2026-09-21T02:41:02.6700426Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/CS2024/1151VR-HW1-414261498-陳宥元
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+64237
+-parentPid
+20464
+-analyticsCloudUserId
+anonymous
+-analyticsLocalProjectId
+3d1ec24547d661f4eb17243830b0d599
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+86fad066e0e044d426811b61e02e32432624f163
+-cbmMachineId
+oyhdFeAdCaeIokcTrryjiu2Q/Ro=
+-licensingIpc
+LicenseClient-CS2025
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/CS2024/1151VR-HW1-414261498-陳宥元
+C:/Users/CS2024/1151VR-HW1-414261498-陳宥元
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [18484]  Target information:
+
+Player connection [18484]  * "[IP] 140.136.150.22 [Port] 0 [Flags] 2 [Guid] 153329938 [EditorId] 153329938 [Version] 1048832 [Id] WindowsEditor(7,PC22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18484]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 153329938 [EditorId] 153329938 [Version] 1048832 [Id] WindowsEditor(7,PC22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18484]  * "[IP] 192.168.53.1 [Port] 0 [Flags] 2 [Guid] 153329938 [EditorId] 153329938 [Version] 1048832 [Id] WindowsEditor(7,PC22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18484]  * "[IP] 192.168.45.1 [Port] 0 [Flags] 2 [Guid] 153329938 [EditorId] 153329938 [Version] 1048832 [Id] WindowsEditor(7,PC22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18484] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18484] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 72487b62e09863a88008062e59f9a196
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/CS2024/1151VR-HW1-414261498-陳宥元/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) UHD Graphics 770 (ID=0x4680)
+    Vendor:          Intel
+    VRAM:            8026 MB
+    App VRAM Budget: 7369 MB
+    Driver:          32.0.101.7077
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002995 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (150ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (146ms)
+		TypeCache.Refresh (191ms)
+			TypeCache.ScanAssembly (177ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (422ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1637ms
+	BeginReloadAssembly (189ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (301ms)
+		TypeCache.Refresh (135ms)
+			TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (76ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (821ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6609 unused Assets / (11.0 MB). Loaded Objects now: 7468.
+Memory consumption went from 342.2 MB to 331.2 MB.
+Total: 9.574000 ms (FindLiveObjects: 0.713500 ms CreateObjectMapping: 0.378800 ms MarkObjects: 5.249400 ms  DeleteObjects: 2.916600 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (5.5 MB). Loaded Objects now: 7468.
+Memory consumption went from 334.5 MB to 329.1 MB.
+Total: 8.443000 ms (FindLiveObjects: 0.506700 ms CreateObjectMapping: 0.134100 ms MarkObjects: 6.331700 ms  DeleteObjects: 1.206700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:44:33.4527097Z
+  Time since last request: 5982.93351379999967 seconds.
+  importAddress: GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter
+Importing 'GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00000000000000001000000000000000' -> (Import Result ID: 'e7deeb2551deae0121fd5a6b039aae71') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=923ecb25fcaecb4cb3c936046707f967 DependenciesID=e433eb2cc7fcfa398a42c02d690773b6 StaticDependenciesID=49809cc4be1468db50a967dd266d4b5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:44:47.5875466Z
+  Time since last request: 14.1162966 seconds.
+  importAddress: GUID: a46df2acdd5b9e6458b3c6bda17fd2fe - Path: Assets/3D object - Importer: PreviewImporter
+Importing 'GUID: a46df2acdd5b9e6458b3c6bda17fd2fe - Path: Assets/3D object - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a46df2acdd5b9e6458b3c6bda17fd2fe' -> (Import Result ID: '258daf3739d14a0bfadde5f94db4af34') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5f90163f9ee02dd80e9d322d6f71d93 DependenciesID=612d69c1b69dd64a8ca02de846fad748 StaticDependenciesID=30e4b3b646d89293f40ed042dc22c7eb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:44:48.5676728Z
+  Time since last request: 0.9683114 seconds.
+  importAddress: GUID: a46df2acdd5b9e6458b3c6bda17fd2fe - Path: Assets/3D object - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a46df2acdd5b9e6458b3c6bda17fd2fe - Path: Assets/3D object - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a46df2acdd5b9e6458b3c6bda17fd2fe' -> (Import Result ID: '9fec6ee6b10fa4aa24aaacd3545a4c71') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a50af23bd931fd23c3e7e8d98fc925a4 DependenciesID=cf4f63880207d33f30e59049eb4a9f3a StaticDependenciesID=101459bfd53792f551d70c1be296afd8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.711 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (216ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (293ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (148ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (712ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6609 unused Assets / (8.8 MB). Loaded Objects now: 7523.
+Memory consumption went from 360.9 MB to 352.2 MB.
+Total: 7.601000 ms (FindLiveObjects: 0.608700 ms CreateObjectMapping: 0.353300 ms MarkObjects: 4.430800 ms  DeleteObjects: 1.955600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:30.1352243Z
+  Time since last request: 101.5172285 seconds.
+  importAddress: GUID: b6e7451db795eb14b8b86c01246b4e45 - Path: Assets/Kevin Iglesias/Human Animations - Importer: PreviewImporter
+Importing 'GUID: b6e7451db795eb14b8b86c01246b4e45 - Path: Assets/Kevin Iglesias/Human Animations - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b6e7451db795eb14b8b86c01246b4e45' -> (Import Result ID: '6be47f9c880b146fd2722bfa7047bc3a') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99d87f93abe727aab506c1f24a4d480e DependenciesID=97ec206251cd0e6da5f5f3b55dce45a5 StaticDependenciesID=307f672190c1069fd2dc25d3d00ff768 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:31.4385845Z
+  Time since last request: 1.2918366 seconds.
+  importAddress: GUID: efeb8c36a1723364392603dda24becb0 - Path: Assets/Kevin Iglesias/Human Animations/Animations - Importer: PreviewImporter
+Importing 'GUID: efeb8c36a1723364392603dda24becb0 - Path: Assets/Kevin Iglesias/Human Animations/Animations - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: efeb8c36a1723364392603dda24becb0' -> (Import Result ID: '64d6f2c9569df54fefd5d445f3a1bf04') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37cb2ce664f3e0513ccd060fa8567f75 DependenciesID=64942195e04fb8c23c6b6b12e411b95c StaticDependenciesID=2f9463291058122c5a03fd6e1004e17f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:32.6949658Z
+  Time since last request: 1.2446827 seconds.
+  importAddress: GUID: a188c029449cdad41b29e2705df3bea4 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female - Importer: PreviewImporter
+Importing 'GUID: a188c029449cdad41b29e2705df3bea4 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a188c029449cdad41b29e2705df3bea4' -> (Import Result ID: '6421cf4c7955e8701aa4bc637d9c3a15') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94b9c0e0fb9fb650bc88531e913e6878 DependenciesID=3726b35647120782b81b88ebb4996722 StaticDependenciesID=bb8d1174619ee7c4a6c958eb922a9c28 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:33.2872181Z
+  Time since last request: 0.5811138 seconds.
+  importAddress: GUID: 5e92f90055a54ab47b74a1f5297faecd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles - Importer: PreviewImporter
+Importing 'GUID: 5e92f90055a54ab47b74a1f5297faecd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5e92f90055a54ab47b74a1f5297faecd' -> (Import Result ID: '57e1e5fc62a8145d78f8be16eff381e7') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b045a7eef01f44711c3090504cf5680 DependenciesID=7a3023a7643b4e8426ea28eb230a0f2e StaticDependenciesID=7dce26064944fb41d5c27df38b1aeb01 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:33.3864018Z
+  Time since last request: 0.0883535 seconds.
+  importAddress: GUID: 0f69fd4f4ad106447896fb775199ed37 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle01.fbx - Importer: PreviewImporter
+Importing 'GUID: 0f69fd4f4ad106447896fb775199ed37 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0f69fd4f4ad106447896fb775199ed37' -> (Import Result ID: '8fa18205822b9573f7fb8cb4d9b27f38') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a28ab2cb63e87a9692d809a2db82af13 DependenciesID=ba15099937b3cbebc0098ed9864734b4 StaticDependenciesID=195758242716acbfbfa840822747bdfc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:33.4340761Z
+  Time since last request: 0.0002229 seconds.
+  importAddress: GUID: da2ed2e1aae1da34684fe894590efa54 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle02-Idle01.fbx - Importer: PreviewImporter
+Importing 'GUID: da2ed2e1aae1da34684fe894590efa54 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle02-Idle01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: da2ed2e1aae1da34684fe894590efa54' -> (Import Result ID: '2ba53037ea96a1062f79871fae670d4b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3e46206b4dfe8d2007c113cdfcce677 DependenciesID=6440d0b7fae8179b8bb886a0aa6b4dd2 StaticDependenciesID=5b3438ab477cf33fdafad71e73599454 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:51.5653576Z
+  Time since last request: 18.1147655 seconds.
+  importAddress: GUID: 7278ad681fe961a49a8889ba9f9d45df - Path: Assets/Kevin Iglesias/Human Animations/Models - Importer: PreviewImporter
+Importing 'GUID: 7278ad681fe961a49a8889ba9f9d45df - Path: Assets/Kevin Iglesias/Human Animations/Models - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7278ad681fe961a49a8889ba9f9d45df' -> (Import Result ID: 'd829838bcaf49d3e1138d4fa5ae0b60a') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d54ba3b4e7d4b0e37a6c372cf114a717 DependenciesID=dd9cf77576c8b0b3805604a68280941e StaticDependenciesID=d2980d3eecdc114076e53db7bf8f00f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T02:46:51.6411114Z
+  Time since last request: 0.0651042 seconds.
+  importAddress: GUID: 1841c298173cdad4db8df8602c8f1c8d - Path: Assets/Kevin Iglesias/Human Animations/Models/HumanF_Model.fbx - Importer: PreviewImporter
+Importing 'GUID: 1841c298173cdad4db8df8602c8f1c8d - Path: Assets/Kevin Iglesias/Human Animations/Models/HumanF_Model.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1841c298173cdad4db8df8602c8f1c8d' -> (Import Result ID: '430db12f87e058e8125e04872cd1a099') in 3.140 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e932fdeb05d1a927e2f63ad976977d3 DependenciesID=69d68e026e25241856b36ab10b254923 StaticDependenciesID=a42ad079c816b88d6e2a5710c6bcdf63 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.547928Z
+  Time since last request: 910.73054569999999 seconds.
+  importAddress: GUID: 0e7376aa8f8f38e4fb138892f92fe2e6 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Right.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0e7376aa8f8f38e4fb138892f92fe2e6 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Right.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0e7376aa8f8f38e4fb138892f92fe2e6' -> (Import Result ID: 'eafa77aecea9f7726e5de463ea986bc3') in 0.089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24e7e4bad4680495487c096b47f4e89e DependenciesID=793917632458601abe4d87f97612f96e StaticDependenciesID=63bd5fa09ba5b8f76b59251c6d662b66 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.6566962Z
+  Time since last request: 0.0060759 seconds.
+  importAddress: GUID: 67b3854dfc8f4ee4485ed3c744ac0cca - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 67b3854dfc8f4ee4485ed3c744ac0cca - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 67b3854dfc8f4ee4485ed3c744ac0cca' -> (Import Result ID: '6bc95d4777d17131d57478da986b96a7') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7944c326c8f1248caf9289a151b58fb9 DependenciesID=843ac4550534884c4e41ec51e2e506dc StaticDependenciesID=08a794acb25c3de5f7ba518517a7409c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.6801034Z
+  Time since last request: 0.0000292 seconds.
+  importAddress: GUID: 5277e5180e302184fb73653674a14c85 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Social/Conversation/HumanM@Talk01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5277e5180e302184fb73653674a14c85 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Social/Conversation/HumanM@Talk01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5277e5180e302184fb73653674a14c85' -> (Import Result ID: 'b8345a5e9b4495b9f8f9796b06494c67') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc040b7b3950ab62aeb0cfaf00c93774 DependenciesID=6ddcfaa194c18b79c4d5b69a21f7f6d7 StaticDependenciesID=51cbda1d30047cf548889e50086a3484 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.6997574Z
+  Time since last request: 0.0002738 seconds.
+  importAddress: GUID: 17eb721b405a2864b84ea7c088d6bf02 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Left [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 17eb721b405a2864b84ea7c088d6bf02 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Left [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 17eb721b405a2864b84ea7c088d6bf02' -> (Import Result ID: 'eec09ff3d52caad17dca2946f3176d6f') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4dca8dc18345883b2c57bad57c4aa235 DependenciesID=c07ec34e74f3206035c02c40fbc996f8 StaticDependenciesID=e69f8433bf7428d6f877581012bdd9ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.7196807Z
+  Time since last request: 0.0002007 seconds.
+  importAddress: GUID: 73e24cf6536bfef4b98ccd6eb529a5fd - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Prefabs/Human_BasicMotionsDummy_F.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 73e24cf6536bfef4b98ccd6eb529a5fd - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Prefabs/Human_BasicMotionsDummy_F.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 73e24cf6536bfef4b98ccd6eb529a5fd' -> (Import Result ID: '3a4a30737191860ac10791c6cb026c24') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ff567832495cc7b21a1fa1d54028356 DependenciesID=5fa9b7ba05ced99642b0716fd2648a17 StaticDependenciesID=8076b399e6499c175c0f514ec52991bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.743799Z
+  Time since last request: 0.0001639 seconds.
+  importAddress: GUID: f2713866a3b7c484eb322653260adc9c - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_ForwardRight [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f2713866a3b7c484eb322653260adc9c - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_ForwardRight [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f2713866a3b7c484eb322653260adc9c' -> (Import Result ID: 'd27ae49c39227b6b59b4df66fb499381') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f98c7266672519c0256605a32d435a9a DependenciesID=f7744c3fcd4e662ae9c11bf603f25506 StaticDependenciesID=9c6f148203a2ef963f2af1212c7d87c1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.7634501Z
+  Time since last request: 0.0003185 seconds.
+  importAddress: GUID: 1841c298173cdad4db8df8602c8f1c8d - Path: Assets/Kevin Iglesias/Human Animations/Models/HumanF_Model.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1841c298173cdad4db8df8602c8f1c8d - Path: Assets/Kevin Iglesias/Human Animations/Models/HumanF_Model.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1841c298173cdad4db8df8602c8f1c8d' -> (Import Result ID: '1a2567a1cea05bf43cfdeb129f1234e1') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=744bf3c9c816e1ee00c0e277d5b56605 DependenciesID=c9219305ea2738a93def251c870d6f3d StaticDependenciesID=cf4eb2529e3ee0875479945db02ffad0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.7906689Z
+  Time since last request: 0.0002298 seconds.
+  importAddress: GUID: 1ee3692ad357102419809ccbcace4969 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1ee3692ad357102419809ccbcace4969 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1ee3692ad357102419809ccbcace4969' -> (Import Result ID: 'bcf1d4cb5626b24126ce5ed7df998bff') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef314edd2872462be15b10fc222bcdf9 DependenciesID=c81f5e31358015d76362e1a0ad6de160 StaticDependenciesID=82319c7420f1f71ac2e1209d8c6b8320 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.812145Z
+  Time since last request: 0.0002282 seconds.
+  importAddress: GUID: 7c23c3776f1ce0248aaa1fa0043581cd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardRight [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7c23c3776f1ce0248aaa1fa0043581cd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardRight [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7c23c3776f1ce0248aaa1fa0043581cd' -> (Import Result ID: '3cc800d0251b446cdd98d2726ae6145f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=900c93201730aa93bd6d154476b63999 DependenciesID=fdaab87a4ae5004a932114f8f326cd7d StaticDependenciesID=45c846368ea0fdc8de657e00144b81f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.8309183Z
+  Time since last request: 0.0001958 seconds.
+  importAddress: GUID: ca1026661b885cc41b96ef19b8fa736b - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Left [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ca1026661b885cc41b96ef19b8fa736b - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Left [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ca1026661b885cc41b96ef19b8fa736b' -> (Import Result ID: '1f775e365ff87057557f5f5d6492f246') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9eacc3db6718f68f68ae16e58e8af75e DependenciesID=421a92a15f195e22f0289e9a0f558f12 StaticDependenciesID=774172399a16995fafca0ce1376fea5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.8486978Z
+  Time since last request: 0.0000805 seconds.
+  importAddress: GUID: 152af2cd00aaae34e816ebb8deb4b68e - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardRight.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 152af2cd00aaae34e816ebb8deb4b68e - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardRight.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 152af2cd00aaae34e816ebb8deb4b68e' -> (Import Result ID: 'af0b551d17f3fd56ee4f7140939fdbd9') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f9bcb3e0ba60fbd7f8791647f798431 DependenciesID=d71e3a13613b16326dba355cf9710078 StaticDependenciesID=c05335c5928b1a035e5114bbec16279b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.8684693Z
+  Time since last request: 0.0001838 seconds.
+  importAddress: GUID: f19b58f90d2ec3f409b2fd86a79e7cc3 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Forward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f19b58f90d2ec3f409b2fd86a79e7cc3 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Forward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f19b58f90d2ec3f409b2fd86a79e7cc3' -> (Import Result ID: 'db1bbcaa8c518c4abbe5c7e43cd53bb3') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ffbafa4274e9cbd439463405e9a0f307 DependenciesID=d2cb907029ea09129d9f118658eae553 StaticDependenciesID=10664af20385352ff3526fb3dc56a028 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.8892734Z
+  Time since last request: 0.000105 seconds.
+  importAddress: GUID: b7a9bc6acd2eaa941ab64d230864a316 - Path: Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Hands/Human Hand Left Mask.mask - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7a9bc6acd2eaa941ab64d230864a316 - Path: Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Hands/Human Hand Left Mask.mask - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7a9bc6acd2eaa941ab64d230864a316' -> (Import Result ID: '8a554694384641cb4bac34597c5d45de') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae940ebf3750591d9111a3faf5fb0329 DependenciesID=5c97ce47505ae24d5254911991c64532 StaticDependenciesID=9148584388760e0ee7b86734a48a5f03 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.9026382Z
+  Time since last request: 0.0003552 seconds.
+  importAddress: GUID: 40786e67f3ceb094b9c00543f295cb5f - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Forward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 40786e67f3ceb094b9c00543f295cb5f - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Forward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 40786e67f3ceb094b9c00543f295cb5f' -> (Import Result ID: '4fc429e2a503163863105838c3e86c2b') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=822606b91a7be267281bd341e8dc3e2f DependenciesID=fb45033cae83eb731a76d6a27d2c7021 StaticDependenciesID=c6e9b3a50b12120292c7e0ed9afc21cc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.9208672Z
+  Time since last request: 0.0001876 seconds.
+  importAddress: GUID: ce54d9f3bc9c6f54a925b28db7f669c6 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Materials/HumanBasicMotions_SceneChair.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ce54d9f3bc9c6f54a925b28db7f669c6 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Materials/HumanBasicMotions_SceneChair.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ce54d9f3bc9c6f54a925b28db7f669c6' -> (Import Result ID: 'f44a9727628c078c21fa07c28f12d4b7') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7228bef2c9b086771e351d58b0aeb389 DependenciesID=8cf763512adac73c7308558c33cac7fe StaticDependenciesID=f6af6d61fddcac14ecd61d52cbf062d5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.9376787Z
+  Time since last request: 0.0002178 seconds.
+  importAddress: GUID: abfd5440ec4350b46bdc9de604553b7a - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 - Begin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: abfd5440ec4350b46bdc9de604553b7a - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 - Begin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: abfd5440ec4350b46bdc9de604553b7a' -> (Import Result ID: '020ee7fb2ccdfed7badaa3da9035b296') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab34e581ffcccd362bcd5158aa202c80 DependenciesID=34c519bed896fb899acc0a843a7462b5 StaticDependenciesID=470f5e63b25e73bcb8db6267484b3c31 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.9559625Z
+  Time since last request: 0.0004048 seconds.
+  importAddress: GUID: 7a1d4b6c231e27b43ba22925331a8f90 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7a1d4b6c231e27b43ba22925331a8f90 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7a1d4b6c231e27b43ba22925331a8f90' -> (Import Result ID: '8866bab356aa395be2a05f8448fd5ee7') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07f963068733f0b00dc121295a5eb183 DependenciesID=57e303c372b0aa59a8b76a7e902210e4 StaticDependenciesID=abe2e62973c9dacdd81b480ad4c49d3f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.9760958Z
+  Time since last request: 0.0000717 seconds.
+  importAddress: GUID: c2107d18fdd13e046b6b333ce7d88eca - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c2107d18fdd13e046b6b333ce7d88eca - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c2107d18fdd13e046b6b333ce7d88eca' -> (Import Result ID: '2aeb41ea8b846f1996a28ef53904afab') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ce8c25f978873a5accfd59f62c6b37d DependenciesID=c35c99c72f4e97927e7d28bab3f46f5d StaticDependenciesID=f9524e200ef8ebea2cfc7967cc39cb1f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:05.9920537Z
+  Time since last request: 0.0007255 seconds.
+  importAddress: GUID: b5aa46a35563ed44bb6dc4be5dabd918 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Forward [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b5aa46a35563ed44bb6dc4be5dabd918 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Forward [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b5aa46a35563ed44bb6dc4be5dabd918' -> (Import Result ID: '8ffab7f584d2f44df56d38b539ce5b48') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b64da6a65550ba6581c9431e2644a2f5 DependenciesID=a44e5edb22f517fc83e0de7bd06c4f7d StaticDependenciesID=920888902e0cfbcfe5e00be168e1db91 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.0133689Z
+  Time since last request: 0.0000313 seconds.
+  importAddress: GUID: 8296dab082eb77948ab45344c6a09bcd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8296dab082eb77948ab45344c6a09bcd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8296dab082eb77948ab45344c6a09bcd' -> (Import Result ID: 'bd40d049daf30b2fde40ce333aca7a03') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d11eca09aacf30eb9b5ddb0cbdd7642d DependenciesID=d3d56f3ec86b79a19e0de8c7c146514e StaticDependenciesID=fe6de627f8685950b607c3c940007e86 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.0380922Z
+  Time since last request: 0.0002291 seconds.
+  importAddress: GUID: a8e6c7cf678a13541a726c2ae9ec00e3 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Backward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a8e6c7cf678a13541a726c2ae9ec00e3 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Backward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a8e6c7cf678a13541a726c2ae9ec00e3' -> (Import Result ID: '0feda95c625bc41d091d9e060a7aaeda') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=494ac7344cc01137c9e0d9587c49b27f DependenciesID=b1c8ee288e82b5c625667035795577a2 StaticDependenciesID=d40e19bfd2800f24bf9c0b0a50ff4824 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.057513Z
+  Time since last request: 0.0001982 seconds.
+  importAddress: GUID: b7ff898919f115a4095d79af0129756f - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Backward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7ff898919f115a4095d79af0129756f - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Backward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7ff898919f115a4095d79af0129756f' -> (Import Result ID: '1dd8ca2b5f17975eb0d139cdd56ecb75') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd6f3af51b56f6b4f9a7ae2d638688c7 DependenciesID=9c803e337bbd00ef4ecb98de15e676e4 StaticDependenciesID=3660d7c26d31045079ab76650ad295b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.0803901Z
+  Time since last request: 0.0000572 seconds.
+  importAddress: GUID: 393051f55b8023349abb9a2cb9bdcfef - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanBasicMotionsScene.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 393051f55b8023349abb9a2cb9bdcfef - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanBasicMotionsScene.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 393051f55b8023349abb9a2cb9bdcfef' -> (Import Result ID: '6cd46f6a812445cf055fdb8aedbdcdba') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06e45f2802b95480887e71013a1e3d83 DependenciesID=c83f86c14d1f368ef7e8e994365c5cba StaticDependenciesID=885b879bc6a34c3228a5d1397dd1a2ab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.1028791Z
+  Time since last request: 0.0028416 seconds.
+  importAddress: GUID: 53186c660ca35254cb302f56f055063e - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 [RM] - Begin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 53186c660ca35254cb302f56f055063e - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 [RM] - Begin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 53186c660ca35254cb302f56f055063e' -> (Import Result ID: 'b61a217d7b401142a169dae12bffb96c') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ded8d143c9a5860b5f78a506dd09fc16 DependenciesID=be24edab890fb6ecbb8cbda4e9c9ede4 StaticDependenciesID=5566751a30729a3d73cb9c0c604f6b8b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.1220145Z
+  Time since last request: 0.0003275 seconds.
+  importAddress: GUID: 2d5dcba826921c444bb225aa66997abd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 [RM] - Land.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2d5dcba826921c444bb225aa66997abd - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 [RM] - Land.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2d5dcba826921c444bb225aa66997abd' -> (Import Result ID: '460a27a0d51d4554d96eb543d49a8eae') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ca7bdccaf10ab90d0588a76564afa1f DependenciesID=4fb99e87a3dc0da3a35e0064ba122f86 StaticDependenciesID=de3dcab710df4949c32908fdd68e39f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.1461243Z
+  Time since last request: 0.0001564 seconds.
+  importAddress: GUID: a1efc4df860a2fe4a8c3e44b28fd963e - Path: Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arm Right Mask.mask - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a1efc4df860a2fe4a8c3e44b28fd963e - Path: Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arm Right Mask.mask - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a1efc4df860a2fe4a8c3e44b28fd963e' -> (Import Result ID: 'a2fa53f6c021ea29fafd02aaee62b818') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64bac92de2ece752885a7f8d159537ec DependenciesID=ebd83e757c45535aa087ef647a3a7691 StaticDependenciesID=6ef2964ac78c9222494b70ba30d7b405 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.1688396Z
+  Time since last request: 0.008465 seconds.
+  importAddress: GUID: c0a52d9cd6720ec40813f0232613e371 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c0a52d9cd6720ec40813f0232613e371 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c0a52d9cd6720ec40813f0232613e371' -> (Import Result ID: '65520353967edcf83cf106f228bd7b73') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96d07b4fabc4a4fdb760be19c652d1be DependenciesID=ae4cafaa083dfc0d1bcdb9d34aa38155 StaticDependenciesID=bc4a3b612227f5a896554938c254dc18 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (5.5 MB). Loaded Objects now: 7650.
+Memory consumption went from 386.3 MB to 380.8 MB.
+Total: 14.400600 ms (FindLiveObjects: 0.653200 ms CreateObjectMapping: 0.200600 ms MarkObjects: 10.790700 ms  DeleteObjects: 2.372300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:06.5024807Z
+  Time since last request: 0.3099036 seconds.
+  importAddress: GUID: b04ab1a8d6a06c041aa2bf524747dd37 - Path: Assets/3D object/New Folder - Importer: PreviewImporter
+Importing 'GUID: b04ab1a8d6a06c041aa2bf524747dd37 - Path: Assets/3D object/New Folder - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b04ab1a8d6a06c041aa2bf524747dd37' -> (Import Result ID: 'f0d246a377190e67c47b0c1d608556f1') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=712868ce436034a9e5388fc94a9ed1d6 DependenciesID=68f56f674da7d42339f915ab2bde935e StaticDependenciesID=3e677b61c80a6b18008d1eda60de25e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:17.9270099Z
+  Time since last request: 11.4094364 seconds.
+  importAddress: GUID: b30791e7b86b5fd459b5a1e7524a51ca - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b30791e7b86b5fd459b5a1e7524a51ca - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b30791e7b86b5fd459b5a1e7524a51ca' -> (Import Result ID: 'dc0eb7056a135c25d2362fe8f9612c8c') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f9f1649686e3fcf70fdcb79abe34447 DependenciesID=d000d177fd59db8cfb52aa344a3d0a26 StaticDependenciesID=367efaa69a78285531b6434017dfa88f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:17.9436501Z
+  Time since last request: 0.0004285 seconds.
+  importAddress: GUID: a6373b7536cc6fd4485ebc59e60dc4cc - Path: Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arms Mask.mask - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a6373b7536cc6fd4485ebc59e60dc4cc - Path: Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arms Mask.mask - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a6373b7536cc6fd4485ebc59e60dc4cc' -> (Import Result ID: '609c40169f52b3bd7ad762beb070c3d3') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a69440866eaea2b1a80d823c7ca9bb8b DependenciesID=d016e39bf2d9e08e29bd2ef7ae88d84e StaticDependenciesID=748f7d39c60d377a854f58e2e52329e6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:17.9576493Z
+  Time since last request: 0.0006179 seconds.
+  importAddress: GUID: 77673eecac9076048b4b09f89e0c3d02 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 77673eecac9076048b4b09f89e0c3d02 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 77673eecac9076048b4b09f89e0c3d02' -> (Import Result ID: '1a14655e30a8c16caefadd5eab8885c3') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60e38c1b301af6a8d1b1442368ce7d4e DependenciesID=cdbdfc26ed2a50eaa3c47e29132044b1 StaticDependenciesID=cd2ea289ff8c064df554598d7f8e337b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.0159141Z
+  Time since last request: 0.0447777 seconds.
+  importAddress: GUID: 78375be644e8f3a45bdc574dcc4fdb45 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Backward [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 78375be644e8f3a45bdc574dcc4fdb45 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Backward [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 78375be644e8f3a45bdc574dcc4fdb45' -> (Import Result ID: 'f1f8dbaa413ece58e8b200e9bacaeda3') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=957a9e8bb3048cd255d0b1ad8930db03 DependenciesID=cf587179b0bfd046eaee509f50e624a3 StaticDependenciesID=6a1bbbdcb4fdca676feb6794c22ddb3a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.0330882Z
+  Time since last request: 0.0001183 seconds.
+  importAddress: GUID: 62f242d2f9358a8429c9ea16bfc70c60 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 62f242d2f9358a8429c9ea16bfc70c60 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 62f242d2f9358a8429c9ea16bfc70c60' -> (Import Result ID: '7ba4647ebebeed0cb6d0f4515337e3cb') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba0142ad036a113ce64586d3a6530ba4 DependenciesID=13020a2018b7e7617ab7d3d9cd2dfb9e StaticDependenciesID=27ad955a68b1ff1ef0794c23e63e22fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.0543705Z
+  Time since last request: 0.0002428 seconds.
+  importAddress: GUID: 9fefcdfef4f1bde45bef8b66dd81e417 - Path: Assets/Kevin Iglesias/Human Animations/Human Basic Motions 2.4 FREE.pdf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9fefcdfef4f1bde45bef8b66dd81e417 - Path: Assets/Kevin Iglesias/Human Animations/Human Basic Motions 2.4 FREE.pdf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9fefcdfef4f1bde45bef8b66dd81e417' -> (Import Result ID: 'f561442450ccb7c9a6cc0ca0a09d7186') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=324b5600c009d10c62564cd38cdd08e1 DependenciesID=7767c9afb497984fe8dba42d42648ce1 StaticDependenciesID=08d12ffc77a1c8d2d4a4b4343d714d0c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.070662Z
+  Time since last request: 0.0004844 seconds.
+  importAddress: GUID: 2f6618ca4af94df49884ca327b3c36f6 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Textures/HumanBasicMotionsShadow.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2f6618ca4af94df49884ca327b3c36f6 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Textures/HumanBasicMotionsShadow.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 2f6618ca4af94df49884ca327b3c36f6' -> (Import Result ID: '416bd5248c60f53d676d55602e3e9a25') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd501adce8dd42957fcd1b619bf92775 DependenciesID=67188bfc0620dfaa8f26cb965660a7eb StaticDependenciesID=c86e7dd59db96585cdc8f8238edb9bd5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.1301987Z
+  Time since last request: 0.000426 seconds.
+  importAddress: GUID: 9d09a7ef30cc1fe41a7f28ee8fe465c0 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9d09a7ef30cc1fe41a7f28ee8fe465c0 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Right [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9d09a7ef30cc1fe41a7f28ee8fe465c0' -> (Import Result ID: 'fbd821b06bd20387ae857eeecafd3249') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=046a47218399df0ad063b2b3e07dc911 DependenciesID=dbd49e30cce19b09658f5b62fca24f8d StaticDependenciesID=fb212da2a877979e5e53734a2452d544 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.1519922Z
+  Time since last request: 0.0002207 seconds.
+  importAddress: GUID: 2d491dc6ab8cc5045919954fe2601203 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2d491dc6ab8cc5045919954fe2601203 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2d491dc6ab8cc5045919954fe2601203' -> (Import Result ID: '5f019fe66d08b90396bf9f94d910b5d4') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe52f1f4f58c7e178565c08e2243f293 DependenciesID=c4fe89ba1cb03d09b4eae560243dd03f StaticDependenciesID=8c3791a1fb22431763e8ada87fd6d05d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.1788424Z
+  Time since last request: 0.0000635 seconds.
+  importAddress: GUID: dd9cde7e792f5f946b091935d7903296 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_ForwardRight.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd9cde7e792f5f946b091935d7903296 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_ForwardRight.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd9cde7e792f5f946b091935d7903296' -> (Import Result ID: 'eeca5da07fc312fba85ac44790bae892') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=370b9725936d46fcc77540b8b0f7479a DependenciesID=fd069af606a05c33c3f30de053e7df62 StaticDependenciesID=51c247a208875c1fc82835bada123e68 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.2033348Z
+  Time since last request: 0.0001663 seconds.
+  importAddress: GUID: f194a505473e7aa469db0682217fa7f8 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f194a505473e7aa469db0682217fa7f8 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f194a505473e7aa469db0682217fa7f8' -> (Import Result ID: '9c454eae6be941ed63cf037f90b4a120') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1902745a92b8472104fa0981dd5f3370 DependenciesID=0c6a7b16f4712ef964c0e0a52afab37d StaticDependenciesID=09d1b1f157c0f0dbc3b5e26df1adef0e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.2251702Z
+  Time since last request: 0.0001246 seconds.
+  importAddress: GUID: b6e7451db795eb14b8b86c01246b4e45 - Path: Assets/Kevin Iglesias/Human Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b6e7451db795eb14b8b86c01246b4e45 - Path: Assets/Kevin Iglesias/Human Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b6e7451db795eb14b8b86c01246b4e45' -> (Import Result ID: 'f687082cad86fa61a923112f71a63f6d') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fd268b325cdec2be52016ed17de0c0b DependenciesID=86ef738320103dc0e028078573d23000 StaticDependenciesID=c2211772bdebb445328a38af645ca9ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.2391073Z
+  Time since last request: 0.0006566 seconds.
+  importAddress: GUID: 5a0e32c255e96fa4294a09f20c564818 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Forward [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5a0e32c255e96fa4294a09f20c564818 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Forward [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5a0e32c255e96fa4294a09f20c564818' -> (Import Result ID: '0bab7679dc2bacecea04941f1a76b45c') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d76a8f8b94cd3898fd178404ea1ad3be DependenciesID=896f04f69dec89ef2daaf205acb138c3 StaticDependenciesID=d286b6ef90598bb18a5195680b7789b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.261693Z
+  Time since last request: 0.0000283 seconds.
+  importAddress: GUID: 5dcc71b9770f2554e8fd3ea0d6c1e1f4 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_BackwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5dcc71b9770f2554e8fd3ea0d6c1e1f4 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_BackwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5dcc71b9770f2554e8fd3ea0d6c1e1f4' -> (Import Result ID: '399a05f71dbe59b359b1e6d7fa6422b1') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=831b88cd30e4e94b0519138ceca3761e DependenciesID=476d70c8e877071554afba50b09b5878 StaticDependenciesID=3bcd587350af57cc20807259a1391422 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.2839433Z
+  Time since last request: 0.0001763 seconds.
+  importAddress: GUID: f1c72df816110fc4394d0e781c72bc31 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f1c72df816110fc4394d0e781c72bc31 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_ForwardLeft.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f1c72df816110fc4394d0e781c72bc31' -> (Import Result ID: '797eb9085a72fd0a1b9be368639c0038') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7295629740343aaf25851425646be414 DependenciesID=c8a92195e92da1efb3a6d35ab5bf358f StaticDependenciesID=4f94dfb2f71721a70a861d6d413ac7d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.3029971Z
+  Time since last request: 0.0000776 seconds.
+  importAddress: GUID: f1f1135ca9cfa8c47bf81718bb0d6873 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f1f1135ca9cfa8c47bf81718bb0d6873 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f1f1135ca9cfa8c47bf81718bb0d6873' -> (Import Result ID: '220ec0086a3973b051c5c4e06662a71f') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3a5d101fa54f264eb4383f6ac3a794d DependenciesID=85512e92064451d8415608dda395b8e1 StaticDependenciesID=a393b3aa22d0f702333f711a7ac8e285 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.3267935Z
+  Time since last request: 0.0000503 seconds.
+  importAddress: GUID: 53f04a4ec8491524e9cdd29521175434 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 53f04a4ec8491524e9cdd29521175434 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 53f04a4ec8491524e9cdd29521175434' -> (Import Result ID: '5b07af14949f4970431cf9858119cef7') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e98b4b533a8d3977736d5fd93e008c68 DependenciesID=784c12c76f812312e0a544b857ab5a19 StaticDependenciesID=66f102bbe44820dd8a79078e700a95cd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.3430688Z
+  Time since last request: 0.0004467 seconds.
+  importAddress: GUID: 2c8e7f499d401414b8215275b03a4c66 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Textures/HumanBasicMotions.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2c8e7f499d401414b8215275b03a4c66 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Textures/HumanBasicMotions.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2c8e7f499d401414b8215275b03a4c66' -> (Import Result ID: '61c94d9e4ddeb050c970eadbc43b09bb') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=160683b89e0185e799dcc261f53aad33 DependenciesID=f58073a66b7c7bd05d475ea58df48e58 StaticDependenciesID=549c6fa166882d3671060d302266c2b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.3757322Z
+  Time since last request: 0.0155282 seconds.
+  importAddress: GUID: 82bf8a2b215c9d7408d4dcf081f8f622 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_ForwardRight [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 82bf8a2b215c9d7408d4dcf081f8f622 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_ForwardRight [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 82bf8a2b215c9d7408d4dcf081f8f622' -> (Import Result ID: 'c116698d89c28e817fcaead2393a4fb3') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=686de3f275e8197517e7cec8082ce4d6 DependenciesID=8fbc5bbeff4a11571d6295fcf7114fb6 StaticDependenciesID=982caa8e10ef0772a41d00e82d843a7d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.4009859Z
+  Time since last request: 0.0000223 seconds.
+  importAddress: GUID: 9cc63407e9eb8204babf8fc94b95f3e1 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9cc63407e9eb8204babf8fc94b95f3e1 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Left.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9cc63407e9eb8204babf8fc94b95f3e1' -> (Import Result ID: '63d27888d50411891f9cf89cec73c946') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fea53d2e9bd94efad865ffdd50dbe83b DependenciesID=adb34bc8ca684689a80631458fa94603 StaticDependenciesID=cc933b6db8d8c6378f0235d458894f35 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.4251632Z
+  Time since last request: 0.0002362 seconds.
+  importAddress: GUID: e23ec565e5d40ad4d94e0af6010f22c8 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02-Idle01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e23ec565e5d40ad4d94e0af6010f22c8 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02-Idle01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e23ec565e5d40ad4d94e0af6010f22c8' -> (Import Result ID: '7321231b646730f94f6a38d0adf0e3c2') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5df352bcc37f1bafabc90eea092e73b DependenciesID=8aaef7a991f874124a82aafd35f18bcc StaticDependenciesID=da67a393a3b45620db75c782a084bab4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.4503709Z
+  Time since last request: 0.0002214 seconds.
+  importAddress: GUID: cf78dc5ec3b949d47839771b740e655a - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cf78dc5ec3b949d47839771b740e655a - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cf78dc5ec3b949d47839771b740e655a' -> (Import Result ID: '848810965d8ab166dc5c7f126b370d4d') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7124ae89866d89cd2f3d990ae90a5786 DependenciesID=87f9eabb3dc86d7c2c796266e6e264a5 StaticDependenciesID=8eddec0d2b2fd611b80b01283622ba3d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.4759342Z
+  Time since last request: 0.0001979 seconds.
+  importAddress: GUID: 776b87abc6fae6f4e82851696702435b - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_ForwardRight.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 776b87abc6fae6f4e82851696702435b - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_ForwardRight.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 776b87abc6fae6f4e82851696702435b' -> (Import Result ID: 'd0fc994b9620384c7249adb6627594f5') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b310c447b10272f8860a0bbc9a6a3469 DependenciesID=42e702af6fc96751e5a11e81914dd2ef StaticDependenciesID=d6164e220ba40b9d1a4e97a8552a8410 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.498447Z
+  Time since last request: 0.0003067 seconds.
+  importAddress: GUID: f76f0d054afdd5845a03ab8eea5b79b5 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Left [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f76f0d054afdd5845a03ab8eea5b79b5 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Left [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f76f0d054afdd5845a03ab8eea5b79b5' -> (Import Result ID: 'c8ac0ff69f55234dc505f1d7c2a0fc3c') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e4fa7c955e57a212a583f8529fb8a0c DependenciesID=85480abc3b3cf2924648f42d49d26cd3 StaticDependenciesID=ff50caf2c7ec979a15596c04a05c08fd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.5204434Z
+  Time since last request: 0.0004471 seconds.
+  importAddress: GUID: efeb8c36a1723364392603dda24becb0 - Path: Assets/Kevin Iglesias/Human Animations/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: efeb8c36a1723364392603dda24becb0 - Path: Assets/Kevin Iglesias/Human Animations/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: efeb8c36a1723364392603dda24becb0' -> (Import Result ID: 'e98b41df8ecfcdbb04b29ffa31e800b7') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6674b7ba1f2f0b348db1d12439326e84 DependenciesID=6b3ec4788bb2789c5d20b2f8f6761c82 StaticDependenciesID=6a15043e44e3cd913922b196750054df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.5343398Z
+  Time since last request: 0.0003256 seconds.
+  importAddress: GUID: 81d028f9ab5659b4c9e31d07fe9e3733 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_BackwardLeft [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 81d028f9ab5659b4c9e31d07fe9e3733 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_BackwardLeft [RM].fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 81d028f9ab5659b4c9e31d07fe9e3733' -> (Import Result ID: 'ab0953cd47e0e513e5b6be87e21f84b8') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03eaf09b76abb9d8e057fd59a61e63e0 DependenciesID=e75a87376177843d4ace29abdf55802f StaticDependenciesID=0af10244aa1fcf757ec5d0d1020e90d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.554978Z
+  Time since last request: 0.000257 seconds.
+  importAddress: GUID: 2035f8d45874b4e47a2c15ea2fa026fb - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2035f8d45874b4e47a2c15ea2fa026fb - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2035f8d45874b4e47a2c15ea2fa026fb' -> (Import Result ID: 'ac1f6164aaf2b83cad5793e56f32b4db') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=381b5f5d1622bd9981dab2e6eaedea9f DependenciesID=784d611b6daadbd7d86309486803b89e StaticDependenciesID=46ad1167210832fadcdd72799f578de6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.5821474Z
+  Time since last request: 0.0001122 seconds.
+  importAddress: GUID: 02f82df7d301d274883b41f32dca59a0 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01-Idle02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 02f82df7d301d274883b41f32dca59a0 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01-Idle02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 02f82df7d301d274883b41f32dca59a0' -> (Import Result ID: '32adbb497152cf09b789aaa165af8d15') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e8fdf3f591c667f4a88dbffd1ced435 DependenciesID=645dd96cdfc4a1ee1c92590c9d9c3001 StaticDependenciesID=74516dcec9dba674df7f4e4dbb7dd3ee 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.6073537Z
+  Time since last request: 0.0001616 seconds.
+  importAddress: GUID: ef7fc1c2505f93948addc245824a58b1 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Social/Conversation/HumanF@Talk01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ef7fc1c2505f93948addc245824a58b1 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Social/Conversation/HumanF@Talk01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ef7fc1c2505f93948addc245824a58b1' -> (Import Result ID: 'f954888ab47987249491c75197470a6b') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ef2719d969d4f8833576ceaec786888 DependenciesID=17b00f359a1a9da6cf1301dc46639891 StaticDependenciesID=1ed37b424dee6b7a236363ddb842bc76 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.6314874Z
+  Time since last request: 0.0000168 seconds.
+  importAddress: GUID: 6e8891b4ee5f33644a4d56ebad0d4170 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Masked Poses - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6e8891b4ee5f33644a4d56ebad0d4170 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Masked Poses - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6e8891b4ee5f33644a4d56ebad0d4170' -> (Import Result ID: '0043588dd1669573f467c263131c12a8') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f47b41f987c900382dac860dd23ba638 DependenciesID=10b94e3c4eaf1f5e9c97e0e276390be9 StaticDependenciesID=458d0c9b383c83b7769ee88bd4accf46 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.6466453Z
+  Time since last request: 0.0003487 seconds.
+  importAddress: GUID: b1844fbe628f5bf4ab29e6c68912a708 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b1844fbe628f5bf4ab29e6c68912a708 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b1844fbe628f5bf4ab29e6c68912a708' -> (Import Result ID: '0bde06dfc874ee950f6ef24d53b38215') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfa00872244b22da3d105b8b65881aa2 DependenciesID=7e45416b20a7dcea069ef32df463cd6a StaticDependenciesID=154364c4c1d6f2c3cc664b73ac8d623c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.6663969Z
+  Time since last request: 0.0003176 seconds.
+  importAddress: GUID: 1dce3ce39fd4c0f4d9d2dbd5929a328c - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 - Land.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1dce3ce39fd4c0f4d9d2dbd5929a328c - Path: Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 - Land.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1dce3ce39fd4c0f4d9d2dbd5929a328c' -> (Import Result ID: '28a771c1231683673c4385a57a4e70b4') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e02168774cdf8fa39a8620f3fac2c07b DependenciesID=9e981a478a15564b05d92c8bba204a23 StaticDependenciesID=7b9e064ade665d4dc458a525b599c107 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.685933Z
+  Time since last request: 0.0001006 seconds.
+  importAddress: GUID: 9508ccae6dd32b54cb61bd81eda00380 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9508ccae6dd32b54cb61bd81eda00380 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9508ccae6dd32b54cb61bd81eda00380' -> (Import Result ID: 'fe02ac13e72adad9e4a0f8e275a2a68b') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0936a1ce224b5322328e09cfb4e79848 DependenciesID=2ea3dbcee4d7ef9be144ed152142fe1a StaticDependenciesID=9085055854417df9997e1cea6d8ac634 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-21T03:02:18.706075Z
+  Time since last request: 0.0000864 seconds.
+  importAddress: GUID: 303fee22b3d6f2f4d941430abb76c454 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Script - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 303fee22b3d6f2f4d941430abb76c454 - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Script - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 303fee22b3d6f2f4d941430abb76c454' -> (Import Result ID: '5817d94247c97aa454514553f9a23ef9') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdd8f9958461e76d69ef630c63eb775f DependenciesID=d5019d029ce77b651ef5c9e935eaaefb StaticDependenciesID=baa9118cccf56abdc3e7f42cf7c7792d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Curl error 42: Callback aborted
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
